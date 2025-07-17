@@ -111,7 +111,7 @@ Follow these steps to prepare and submit your homework assignment:
     + Your Three lessons learned/not yet learned
     + The URLs to any social media posts (LinkedIn, X, Discord, etc.) ⬅️ _easy Extra Credit points!_
 
-### ALTERNATE: Advanced Challenge Assignment
+### Advanced Build
 
 Follow these steps to prepare and submit your homework assignment:
 1. Create a branch of your `AIE7` repo to track your changes. Example command: `git checkout -b s08-assignment`
