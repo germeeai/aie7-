@@ -87,9 +87,26 @@ Do this by creating a Simple Agent that can make API calls to the 🤖Agent Node
 
 What are the core components of an `AgentCard`?
 
+In the A2A protocol, an AgentCard is like the business card or profile of your AI agent — it tells clients what the agent is, what it can do, and how to talk to it.
+The core components of an AgentCard are:
+name - The agent’s name (e.g., "General Purpose Agent")
+description - A short explanation of what the agent does
+url - The base URL where the agent’s API can be reached
+version - The agent’s version (e.g., "1.0.0")
+default_input_modes - The types of input the agent accepts (e.g., ["text/plain"])
+default_output_modes - The types of output the agent produces
+capabilities - Features the agent supports, like streaming or push_notifications
+skills - A list of AgentSkill objects, each describing a tool or ability (name, description, examples, tags)
+
+Together, these tell the outside world: who the agent is, what it knows, and how you can use it
+
+
 ### ❓ Question #2:
 
 Why is A2A (and other such protocols) important in your own words?
+
+A2A is important because it gives AI agents a standard way to talk, share tasks, and send answers, so they can work with different apps or each other smoothly. Without it, every AI would be stuck in its own system, making them harder to connect or use together.
+
 
 ### 🚧 Advanced Build:
 
